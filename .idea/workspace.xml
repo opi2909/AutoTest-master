@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2184f2-56f7-48ac-8a79-b5b42b9af75c" name="Changes" comment="Lesson3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" afterDir="false" />
+    <list default="true" id="ba2184f2-56f7-48ac-8a79-b5b42b9af75c" name="Changes" comment="Lesson4.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,49 +62,58 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest.simpleDisableTest">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DrLapushkin.Test1" />
-      <module name="DrLapushkin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DrLapushkin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DrLapushkin.Test2" />
-      <module name="DrLapushkin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DrLapushkin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DrLapushkin.Test3" />
-      <module name="DrLapushkin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.DrLapushkin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TriangleTest.Triangle3Test">
     <configuration name="org.example.Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Triangle" />
       <module name="DrLapushkin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.Triangle2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DrLapushkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
+      <option name="METHOD_NAME" value="Triangle2Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.Triangle3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DrLapushkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
+      <option name="METHOD_NAME" value="Triangle3Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DrLapushkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TriangleTest" />
+      <option name="METHOD_NAME" value="TriangleTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TriangleTest.simpleDisableTest" />
+        <item itemvalue="JUnit.TriangleTest.Triangle3Test" />
+        <item itemvalue="JUnit.TriangleTest.Triangle2Test" />
+        <item itemvalue="JUnit.TriangleTest.TriangleTest" />
         <item itemvalue="Application.org.example.Triangle" />
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1" />
+        <item itemvalue="JUnit.TriangleTest.simpleDisableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665429919935</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson4.1">
+      <created>1665661414076</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665661414076</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson3.1" />
     <MESSAGE value="Lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson3" />
+    <MESSAGE value="Lesson4.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson4.1" />
   </component>
 </project>
