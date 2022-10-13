@@ -1,20 +1,16 @@
 package org.example;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
+public class TriangleTest {
+
     @Test
-    public void shouldAnswerWithTrue()
-    {
+    @DisplayName("Позитивный тест 1")
+    public void TriangleTest() {
+
         assertTrue( true );
     }
 }
