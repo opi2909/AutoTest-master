@@ -10,20 +10,26 @@ public class TriangleTest {
 
     @Test
     @DisplayName("Стороны корректны")
-    public void Triangle1Test() {
+    public void Triangle1Test() throws MyException {
 
         assertTrue(Triangle.Aria(3,4,5) > 0 );
     }
     @Test
     @DisplayName("Одна из сторон равна 0")
-    public void Triangle2Test() {
+    public void Triangle2Test() throws MyException {
 
         assertFalse(Triangle.Aria(0,4,5) > 0 );
     }
     @Test
     @DisplayName("Одна из сторон имеет отрицательное значение")
-    public void Triangle3Test() {
+    public void Triangle3Test() throws MyException {
 
         assertFalse(Triangle.Aria(-1,4,5) > 0 );
+    }
+    @Test
+    @DisplayName("Значение одной из сторон слишком велико")
+    public void Triangle4Test() throws MyException {
+
+        assertFalse(Triangle.Aria(100,4,5) > 0 );
     }
 }
