@@ -26,5 +26,7 @@ public class Test2 {
 
         WebElement webElement2 = driver.findElement(By.xpath(".//button/i"));
         webElement2.click();
+
+        driver.quit();
     }
 }

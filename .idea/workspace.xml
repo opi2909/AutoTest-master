@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2184f2-56f7-48ac-8a79-b5b42b9af75c" name="Changes" comment="Lesson4.2">
+    <list default="true" id="ba2184f2-56f7-48ac-8a79-b5b42b9af75c" name="Changes" comment="Lesson4.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DrLapushkin/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DrLapushkin/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DrLapushkin/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DrLapushkin/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DrLapushkin/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DrLapushkin/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DrLapushkin/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DrLapushkin/Test4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665663389407</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson4.3">
+      <created>1665667968750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665667968750</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +223,7 @@
     <MESSAGE value="Lesson3" />
     <MESSAGE value="Lesson4.1" />
     <MESSAGE value="Lesson4.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson4.2" />
+    <MESSAGE value="Lesson4.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson4.3" />
   </component>
 </project>

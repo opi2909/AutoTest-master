@@ -37,5 +37,7 @@ public class Test3 {
 
         WebElement webElement6 = driver.findElement(By.xpath(".//a[contains(text(),'Корзина')]"));
         webElement6.click();
+
+        driver.quit();
     }
 }
