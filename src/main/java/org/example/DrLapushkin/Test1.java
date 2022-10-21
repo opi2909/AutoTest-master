@@ -37,6 +37,6 @@ public class Test1 {
         WebElement webElement5 = driver.findElement(By.xpath(".//div[4]/div/button/span/span"));
         webElement5.click();
 
-        driver.quit();
+
     }
 }
