@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2184f2-56f7-48ac-8a79-b5b42b9af75c" name="Changes" comment="Lesson3.2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DrLapushkin/Tests.java" afterDir="false" />
+    <list default="true" id="ba2184f2-56f7-48ac-8a79-b5b42b9af75c" name="Changes" comment="Lesson4.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DrLapushkin/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DrLapushkin/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DrLapushkin/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DrLapushkin/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665999138767</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lesson4.1">
+      <created>1666349333316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666349333316</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,10 +233,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson3.1" />
     <MESSAGE value="Lesson3" />
-    <MESSAGE value="Lesson4.1" />
     <MESSAGE value="Lesson4.2" />
     <MESSAGE value="Lesson4.3" />
     <MESSAGE value="Lesson3.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson3.2" />
+    <MESSAGE value="Lesson4.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson4.1" />
   </component>
 </project>

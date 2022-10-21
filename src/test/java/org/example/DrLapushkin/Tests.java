@@ -1,6 +1,7 @@
 package org.example.DrLapushkin;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -37,7 +38,7 @@ public class Tests {
                 .click(driver.findElement(By.xpath(".//input[@id='psw_popup440']")))
                 .sendKeys(driver.findElement(By.xpath(".//input[@id='psw_popup440']")),"290907")
                 .click(driver.findElement(By.xpath(".//div[4]/div/button/span/span")));
-
+Assertions.assertTrue(true);
     }
     @Test
     void SearchTest() {
@@ -56,6 +57,7 @@ public class Tests {
                 .click(driver.findElement(By.xpath(".//input[@id='search_input']")))
                 .sendKeys(driver.findElement(By.xpath(".//input[@id='search_input']")), "Бравекто")
                 .click(driver.findElement(By.xpath(".//button/i")));
+        Assertions.assertTrue(true, "Бравекто");
     }
     @Test
     void AddBaskedTest () {
@@ -76,6 +78,7 @@ public class Tests {
                 .click(driver.findElement(By.xpath(".//span[contains(.,'Продолжить покупки')]")))
                 .click(driver.findElement(By.xpath(".//i/span")))
                 .click(driver.findElement(By.xpath(".//a[contains(text(),'Корзина')]")));
+        Assertions.assertNotNull(driver.findElement(By.xpath(".//a[contains(text(),'Корзина')]")));
     }
     @Test
     void DeliteBaskedTest () {
@@ -103,6 +106,8 @@ public class Tests {
                 .click(driver.findElement(By.xpath(".//a[contains(text(),'Корзина')]")))
                 .click(driver.findElement(By.xpath(".//a[contains(text(),'Очистить корзину')]")));
 
+        Assertions.assertNull(driver.findElement(By.xpath(".//span[contains(.,'0')]")));
+
     }
     @Test
     void TransitionTest () {
@@ -118,6 +123,8 @@ public class Tests {
         Actions transition = new Actions(driver);
             transition
                     .click(driver.findElement(By.xpath(".//bdi[contains(.,'Ветеринарная клиника')]")));
+
+            Assertions.assertTrue(true, "Переход на сайт клиники");
 
     }
     @Test
@@ -138,6 +145,8 @@ public class Tests {
             .click(driver.findElement(By.xpath("//input[@id='elm_29']")))
             .sendKeys(driver.findElement(By.xpath("//input[@id='elm_29']")), "143000")
             .click(driver.findElement(By.xpath("//button[@id='save_profile_but']")));
+
+        Assertions.assertNotNull("143000");
 
     }
 
